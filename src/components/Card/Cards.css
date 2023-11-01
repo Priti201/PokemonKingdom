@@ -1,0 +1,16 @@
+.container{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap:wrap;
+    margin: 2%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+}
+@media screen and (max-width: 500px)
+{
+    .container{
+        flex-wrap: wrap;
+    }
+}

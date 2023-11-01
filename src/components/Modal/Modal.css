@@ -1,0 +1,128 @@
+.modal-container{
+    /* color: pink; */
+    font-size: 20px;
+    color: black;
+    background-color: pink;
+    width: 65vw;
+    height: 50vh;
+    position: fixed;
+    z-index: 9;
+    top: 20%;
+    left: 15%;
+    display: flex;
+    padding: 4%;
+    margin: auto;
+}
+.detail-container{
+    width: 60vw;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 15%;
+}
+.modal-part1{
+    margin: 2%;
+    padding: 1%;
+    width: 15vw;
+}
+.modal-part1 h3{
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+img{
+    height: 40vh;
+    width: 15vw;
+}
+.modal-part2{
+    width: 25%;
+    font-size: large;
+
+    align-self: center;
+    
+    
+}
+.modal-part3{
+    width: 20vw;
+    height: 20vh;
+    
+    
+}
+.modal-part4{
+    width: 10vw;
+    height: 20vh;
+}
+
+.close-btn{
+    height: 5%;
+    min-width: 5%;
+    border: none;
+    border-radius: 45%;
+}
+.grass .detail-container, .grass .close-btn{
+    background-color: rgb(196, 248, 119);
+}
+.fire .detail-container, .fire .close-btn{
+    background-color: rgb(239, 184, 82);
+}
+.normal .detail-container , .normal .close-btn{
+    background-color: rgb(235, 205, 210);
+}
+.bug .detail-container, .bug .close-btn{
+    background-color: rgb(165, 97, 42);
+}
+.water .detail-container, .grwaterass .close-btn{
+    background-color: rgb(203, 233, 243);
+}
+.poison .detail-container, .poison .close-btn{
+    background-color: rgb(236, 112, 112);
+}
+.electric .detail-container, .electric .close-btn{
+    background-color: rgb(239, 239, 127);
+}
+.ground .detail-container, .ground .close-btn{
+    background-color: rgb(249, 114, 249);
+}
+.fairy .detail-container, .fairy .close-btn{
+    background-color: rgb(213, 199, 199);
+}
+
+@media screen and (max-width:600px) {
+    .modal-container{
+        width: 70%;
+    }
+    .modal-part1{
+        width: 15vw;
+    }
+    .modal-part1 h3{
+        font-size: 15px;
+    }
+    .modal-part2 h4,.modal-part3, .modal-part4{
+        font-size: 15px;
+    }
+    .detail-container{
+        font-size: 15px;
+        flex-direction: column;
+        padding: 2%;
+        width: 40vw;
+    }
+    .modal-part2, .modal-part3, .modal-part4{
+        margin: 5%;
+    }
+    .close-btn{
+        width: 2vw;
+        height: 2vh;
+        font-size: 10px;
+        border-radius: 40%;
+    }
+    
+}
+@media screen and (max-width:880px) {
+.detail-container{
+    font-size: 16px;
+}
+.modal-part2 h4{
+    font-size: 16px;
+}
+}

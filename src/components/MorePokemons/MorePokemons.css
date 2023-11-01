@@ -1,0 +1,17 @@
+.more-pokemons{
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    padding: 0.5%;
+    width: 12vw;
+    height: 8vh;
+    border-radius: 8%;
+    border: none;
+    margin: 1%;
+    background:linear-gradient(45deg,pink,red,orange, lightblue,darkblue);
+}
+.load-more{
+    text-align: center;
+    height: 15vh;
+}
